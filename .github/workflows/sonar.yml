@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir build 
           cd build 
-          cmake .. -GNinja -DCMAKE_BUILD_TYPE=Debug -DBUILD_EXAMPLES=ON -DADS_VERSION=ON
+          cmake .. -GNinja -DCMAKE_BUILD_TYPE=Debug -DBUILD_EXAMPLES=ON -DADS_VERSION=1.0.0
 
       - name: Run build-wrapper
         run: |
